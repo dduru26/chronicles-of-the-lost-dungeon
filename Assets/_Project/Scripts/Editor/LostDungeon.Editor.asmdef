@@ -1,0 +1,19 @@
+{
+    "name": "LostDungeon.Editor",
+    "rootNamespace": "LostDungeon.EditorTools",
+    "references": [
+        "LostDungeon.Core",
+        "LostDungeon.Gameplay",
+        "Unity.Addressables",
+        "Unity.Addressables.Editor"
+    ],
+    "includePlatforms": ["Editor"],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

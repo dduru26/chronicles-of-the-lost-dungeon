@@ -1,0 +1,20 @@
+{
+    "name": "LostDungeon.Gameplay",
+    "rootNamespace": "LostDungeon.Gameplay",
+    "references": [
+        "LostDungeon.Core",
+        "Unity.InputSystem",
+        "Unity.Addressables",
+        "Unity.ResourceManager",
+        "Unity.Cinemachine"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
