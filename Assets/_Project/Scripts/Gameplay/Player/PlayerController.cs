@@ -36,6 +36,7 @@ namespace LostDungeon.Gameplay.Player
             motor = GetComponent<PlayerMotor>();
             input = GetComponent<PlayerInputReader>();
             health = GetComponent<Health>();
+            if (health == null) health = gameObject.AddComponent<Health>();
             if (animationDriver == null) animationDriver = GetComponentInChildren<PlayerAnimationDriver>();
         }
 
