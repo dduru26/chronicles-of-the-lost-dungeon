@@ -13,7 +13,10 @@ GameObject:
   - component: {fileID: 8558275293442578988}
   - component: {fileID: 5788827260646697033}
   - component: {fileID: 5060616670964447773}
+  - component: {fileID: 881379674634906581}
   - component: {fileID: 2966371661375139267}
+  - component: {fileID: 4810178300350920713}
+  - component: {fileID: 707928288508916676}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -133,6 +136,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ebb75411c2a0488799031180d6ee341, type: 3}
   m_Name: 
   m_EditorClassIdentifier: LostDungeon.Gameplay::LostDungeon.Gameplay.Player.PlayerInputReader
+--- !u!114 &881379674634906581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992415706006011001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a72327b639bb34f00a088162a11eeb37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: LostDungeon.Gameplay::LostDungeon.Gameplay.Combat.Health
+  maxHealth: 10
+  invulnerabilityDuration: 0
 --- !u!114 &2966371661375139267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,6 +162,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 763b1c2b634e442299d37585b8229159, type: 3}
   m_Name: 
   m_EditorClassIdentifier: LostDungeon.Gameplay::LostDungeon.Gameplay.Player.PlayerController
+  animationDriver: {fileID: 0}
+  flashRate: 20
+--- !u!114 &4810178300350920713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992415706006011001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d975ec52684aa444f9f2a52f1df98655, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: LostDungeon.Gameplay::LostDungeon.Gameplay.Player.PlayerCombat
+  hittableMask:
+    serializedVersion: 2
+    m_Bits: 512
+  activeStart: 0.06
+  activeEnd: 0.22
+--- !u!114 &707928288508916676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992415706006011001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2c947f53c224c809497b667fb36047, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: LostDungeon.Gameplay::LostDungeon.Gameplay.Player.PlayerAbilities
+  slots:
+  - button: 2
+    ability: {fileID: 11400000, guid: 390ccba9624d34991af2ffd5c0f70877, type: 2}
+  - button: 3
+    ability: {fileID: 11400000, guid: 09168f3cd15a549fda61f1f2d144235c, type: 2}
 --- !u!1 &3262643262985616101
 GameObject:
   m_ObjectHideFlags: 0
