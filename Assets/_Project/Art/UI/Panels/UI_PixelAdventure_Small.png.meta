@@ -1,0 +1,1768 @@
+fileFormatVersion: 2
+guid: 7029cf4a9c5f74f9abd88453a6496d58
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7338210592648649181
+    second: UI_PixelAdventure_Small_0
+  - first:
+      213: -5556930629745838941
+    second: UI_PixelAdventure_Small_1
+  - first:
+      213: -2444316616940108846
+    second: UI_PixelAdventure_Small_2
+  - first:
+      213: -7870469181864564742
+    second: UI_PixelAdventure_Small_3
+  - first:
+      213: 3160605607807800117
+    second: UI_PixelAdventure_Small_4
+  - first:
+      213: 7093847223179567059
+    second: UI_PixelAdventure_Small_5
+  - first:
+      213: -7667858127029194066
+    second: UI_PixelAdventure_Small_6
+  - first:
+      213: -1582449312753532354
+    second: UI_PixelAdventure_Small_7
+  - first:
+      213: -3997273993699687659
+    second: UI_PixelAdventure_Small_8
+  - first:
+      213: -4852226450362242185
+    second: UI_PixelAdventure_Small_9
+  - first:
+      213: -8440943194513491034
+    second: UI_PixelAdventure_Small_10
+  - first:
+      213: -7860934093843973989
+    second: UI_PixelAdventure_Small_11
+  - first:
+      213: 3455306844325734510
+    second: UI_PixelAdventure_Small_12
+  - first:
+      213: -1871878376469517878
+    second: UI_PixelAdventure_Small_13
+  - first:
+      213: 9037997199093813280
+    second: UI_PixelAdventure_Small_14
+  - first:
+      213: 9187750820230921799
+    second: UI_PixelAdventure_Small_15
+  - first:
+      213: -8577060974599829481
+    second: UI_PixelAdventure_Small_16
+  - first:
+      213: 3933826066752793313
+    second: UI_PixelAdventure_Small_17
+  - first:
+      213: 502842236458997543
+    second: UI_PixelAdventure_Small_18
+  - first:
+      213: 1765418610011566898
+    second: UI_PixelAdventure_Small_19
+  - first:
+      213: -1395374102465515672
+    second: UI_PixelAdventure_Small_20
+  - first:
+      213: -2150977560292755771
+    second: UI_PixelAdventure_Small_21
+  - first:
+      213: 5762064177030678467
+    second: UI_PixelAdventure_Small_22
+  - first:
+      213: -6716827790469180506
+    second: UI_PixelAdventure_Small_23
+  - first:
+      213: -2499494478222623848
+    second: UI_PixelAdventure_Small_24
+  - first:
+      213: 9197582942387615620
+    second: UI_PixelAdventure_Small_25
+  - first:
+      213: -4483595048448653453
+    second: UI_PixelAdventure_Small_26
+  - first:
+      213: -1815600643425547038
+    second: UI_PixelAdventure_Small_27
+  - first:
+      213: -3202390801937174227
+    second: UI_PixelAdventure_Small_28
+  - first:
+      213: -7487658416367791106
+    second: UI_PixelAdventure_Small_29
+  - first:
+      213: -7108558411166965938
+    second: UI_PixelAdventure_Small_30
+  - first:
+      213: 2389420281006490268
+    second: UI_PixelAdventure_Small_31
+  - first:
+      213: 3781913009760973887
+    second: UI_PixelAdventure_Small_32
+  - first:
+      213: 3951532093519099803
+    second: UI_PixelAdventure_Small_33
+  - first:
+      213: -2921723680059480012
+    second: UI_PixelAdventure_Small_34
+  - first:
+      213: 4108953701730681694
+    second: UI_PixelAdventure_Small_35
+  - first:
+      213: -5195168252679571117
+    second: UI_PixelAdventure_Small_36
+  - first:
+      213: 2448712541904308787
+    second: UI_PixelAdventure_Small_37
+  - first:
+      213: 4060105598783905610
+    second: UI_PixelAdventure_Small_38
+  - first:
+      213: -6446698629129602536
+    second: UI_PixelAdventure_Small_39
+  - first:
+      213: -8991204432233925039
+    second: UI_PixelAdventure_Small_40
+  - first:
+      213: 4331748468494299826
+    second: UI_PixelAdventure_Small_41
+  - first:
+      213: -2456203400240472232
+    second: UI_PixelAdventure_Small_42
+  - first:
+      213: -26295187581888154
+    second: UI_PixelAdventure_Small_43
+  - first:
+      213: -6523209253849297169
+    second: UI_PixelAdventure_Small_44
+  - first:
+      213: -7622442940521234147
+    second: UI_PixelAdventure_Small_45
+  - first:
+      213: 3066829191593984788
+    second: UI_PixelAdventure_Small_46
+  - first:
+      213: 7849816961406181354
+    second: UI_PixelAdventure_Small_47
+  - first:
+      213: -8469953822544413443
+    second: UI_PixelAdventure_Small_48
+  - first:
+      213: 8198533735119699040
+    second: UI_PixelAdventure_Small_49
+  - first:
+      213: 6140912824501809207
+    second: UI_PixelAdventure_Small_50
+  - first:
+      213: -7199916476520777548
+    second: UI_PixelAdventure_Small_51
+  - first:
+      213: 4639436607542508713
+    second: UI_PixelAdventure_Small_52
+  - first:
+      213: -5275820146727871941
+    second: UI_PixelAdventure_Small_53
+  - first:
+      213: -8429653617326519650
+    second: UI_PixelAdventure_Small_54
+  - first:
+      213: -4400984907924157467
+    second: UI_PixelAdventure_Small_55
+  - first:
+      213: -2602735190755153686
+    second: UI_PixelAdventure_Small_56
+  - first:
+      213: 7173043909037867965
+    second: UI_PixelAdventure_Small_57
+  - first:
+      213: 4967441077352436532
+    second: UI_PixelAdventure_Small_58
+  - first:
+      213: 952026076534552000
+    second: UI_PixelAdventure_Small_59
+  - first:
+      213: -26115979356602263
+    second: UI_PixelAdventure_Small_60
+  - first:
+      213: 4573947531576806447
+    second: UI_PixelAdventure_Small_61
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3262b227850792a90800000000000000
+      internalID: -7338210592648649181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4f28cb801d1e2b0800000000000000
+      internalID: -5556930629745838941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d343b8ccfa041ed0800000000000000
+      internalID: -2444316616940108846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7ad478af976c290800000000000000
+      internalID: -7870469181864564742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 99
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533dd700e0abcdb20800000000000000
+      internalID: 3160605607807800117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_5
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 98
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df5284f678627260800000000000000
+      internalID: 7093847223179567059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_6
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea23556d8ab469590800000000000000
+      internalID: -7667858127029194066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32c346fbb20a0ae0800000000000000
+      internalID: -1582449312753532354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5138f9f2b74d688c0800000000000000
+      internalID: -3997273993699687659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b676860cd69acb0800000000000000
+      internalID: -4852226450362242185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_10
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 83
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6abb5c9f2eebbda80800000000000000
+      internalID: -8440943194513491034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_11
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 83
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b983ca5371a58e290800000000000000
+      internalID: -7860934093843973989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68e2069447b3ff20800000000000000
+      internalID: 3455306844325734510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_13
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9acc3c880c506e0800000000000000
+      internalID: -1871878376469517878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_14
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02056f4319a6d6d70800000000000000
+      internalID: 9037997199093813280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_15
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 66
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74efaa431b2718f70800000000000000
+      internalID: 9187750820230921799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_16
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7188c10ac7828f880800000000000000
+      internalID: -8577060974599829481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_17
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 50
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eae8f427f1c79630800000000000000
+      internalID: 3933826066752793313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_18
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 50
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727933299547af600800000000000000
+      internalID: 502842236458997543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_19
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2337a994fd6008810800000000000000
+      internalID: 1765418610011566898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_20
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 50
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f63c595a2a2ace0800000000000000
+      internalID: -1395374102465515672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_21
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6f9e62e413622e0800000000000000
+      internalID: -2150977560292755771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_22
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 50
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7caec17d6f6ff40800000000000000
+      internalID: 5762064177030678467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_23
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3dc9b36b809c2a0800000000000000
+      internalID: -6716827790469180506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_24
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 52
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b7d73d303005dd0800000000000000
+      internalID: -2499494478222623848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_25
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 50
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487b43984f064af70800000000000000
+      internalID: 9197582942387615620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_26
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377848cfe0217c1c0800000000000000
+      internalID: -4483595048448653453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_27
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 33
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec46a295d0bdc6e0800000000000000
+      internalID: -1815600643425547038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_28
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 33
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d217e8a5882de83d0800000000000000
+      internalID: -3202390801937174227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 32
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef31fe4775e761890800000000000000
+      internalID: -7487658416367791106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_30
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 32
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f174da9c3595d90800000000000000
+      internalID: -7108558411166965938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_31
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 33
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92818cf51de82120800000000000000
+      internalID: 2389420281006490268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_32
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 32
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f343b3e48dd0c7430800000000000000
+      internalID: 3781913009760973887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_33
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 33
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97f2c0c089a6d630800000000000000
+      internalID: 3951532093519099803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_34
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 32
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438253efac3f377d0800000000000000
+      internalID: -2921723680059480012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_35
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 33
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e530f2e1f9fe50930800000000000000
+      internalID: 4108953701730681694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_36
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 36
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359b5a6dffd07e7b0800000000000000
+      internalID: -5195168252679571117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_37
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 34
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a004145139bf120800000000000000
+      internalID: 2448712541904308787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_38
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fd61ed784685830800000000000000
+      internalID: 4060105598783905610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_39
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a7bbcb0c9b886a0800000000000000
+      internalID: -6446698629129602536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_40
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 18
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15677c1d433d83380800000000000000
+      internalID: -8991204432233925039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_41
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2f1f018467d1c30800000000000000
+      internalID: 4331748468494299826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_42
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 18
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f5f806500d9edd0800000000000000
+      internalID: -2456203400240472232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_43
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66911ec8aa492aff0800000000000000
+      internalID: -26295187581888154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_44
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 17
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee85ccbeb7e875a0800000000000000
+      internalID: -6523209253849297169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_45
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d114c81f784a73690800000000000000
+      internalID: -7622442940521234147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_46
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 17
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41302c7a6e09f8a20800000000000000
+      internalID: 3066829191593984788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_47
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef9370bfe620fc60800000000000000
+      internalID: 7849816961406181354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_48
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc3747cfdda47a80800000000000000
+      internalID: -8469953822544413443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_49
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 17
+        width: 64
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06cbdd09efa07c170800000000000000
+      internalID: 8198533735119699040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_50
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 16
+        width: 46
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730321d8da7e83550800000000000000
+      internalID: 6140912824501809207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_51
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b83f748c12c41c90800000000000000
+      internalID: -7199916476520777548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_52
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9acb3868307926040800000000000000
+      internalID: 4639436607542508713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_53
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a9f6f678588c6b0800000000000000
+      internalID: -5275820146727871941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_54
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a8aaf72bad30b80800000000000000
+      internalID: -8429653617326519650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_55
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 2
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb435d2b8f8ce2c0800000000000000
+      internalID: -4400984907924157467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_56
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae861a6422a31ebd0800000000000000
+      internalID: -2602735190755153686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_57
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db34b7c4e65cb8360800000000000000
+      internalID: 7173043909037867965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_58
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 3
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433964a5755efe440800000000000000
+      internalID: 4967441077352436532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_59
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c530cc2ca6463d00800000000000000
+      internalID: 952026076534552000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_60
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9600d77b7a733aff0800000000000000
+      internalID: -26115979356602263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_PixelAdventure_Small_61
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1
+        width: 46
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c09e0db0de97f30800000000000000
+      internalID: 4573947531576806447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UI_PixelAdventure_Small_0: -7338210592648649181
+      UI_PixelAdventure_Small_1: -5556930629745838941
+      UI_PixelAdventure_Small_10: -8440943194513491034
+      UI_PixelAdventure_Small_11: -7860934093843973989
+      UI_PixelAdventure_Small_12: 3455306844325734510
+      UI_PixelAdventure_Small_13: -1871878376469517878
+      UI_PixelAdventure_Small_14: 9037997199093813280
+      UI_PixelAdventure_Small_15: 9187750820230921799
+      UI_PixelAdventure_Small_16: -8577060974599829481
+      UI_PixelAdventure_Small_17: 3933826066752793313
+      UI_PixelAdventure_Small_18: 502842236458997543
+      UI_PixelAdventure_Small_19: 1765418610011566898
+      UI_PixelAdventure_Small_2: -2444316616940108846
+      UI_PixelAdventure_Small_20: -1395374102465515672
+      UI_PixelAdventure_Small_21: -2150977560292755771
+      UI_PixelAdventure_Small_22: 5762064177030678467
+      UI_PixelAdventure_Small_23: -6716827790469180506
+      UI_PixelAdventure_Small_24: -2499494478222623848
+      UI_PixelAdventure_Small_25: 9197582942387615620
+      UI_PixelAdventure_Small_26: -4483595048448653453
+      UI_PixelAdventure_Small_27: -1815600643425547038
+      UI_PixelAdventure_Small_28: -3202390801937174227
+      UI_PixelAdventure_Small_29: -7487658416367791106
+      UI_PixelAdventure_Small_3: -7870469181864564742
+      UI_PixelAdventure_Small_30: -7108558411166965938
+      UI_PixelAdventure_Small_31: 2389420281006490268
+      UI_PixelAdventure_Small_32: 3781913009760973887
+      UI_PixelAdventure_Small_33: 3951532093519099803
+      UI_PixelAdventure_Small_34: -2921723680059480012
+      UI_PixelAdventure_Small_35: 4108953701730681694
+      UI_PixelAdventure_Small_36: -5195168252679571117
+      UI_PixelAdventure_Small_37: 2448712541904308787
+      UI_PixelAdventure_Small_38: 4060105598783905610
+      UI_PixelAdventure_Small_39: -6446698629129602536
+      UI_PixelAdventure_Small_4: 3160605607807800117
+      UI_PixelAdventure_Small_40: -8991204432233925039
+      UI_PixelAdventure_Small_41: 4331748468494299826
+      UI_PixelAdventure_Small_42: -2456203400240472232
+      UI_PixelAdventure_Small_43: -26295187581888154
+      UI_PixelAdventure_Small_44: -6523209253849297169
+      UI_PixelAdventure_Small_45: -7622442940521234147
+      UI_PixelAdventure_Small_46: 3066829191593984788
+      UI_PixelAdventure_Small_47: 7849816961406181354
+      UI_PixelAdventure_Small_48: -8469953822544413443
+      UI_PixelAdventure_Small_49: 8198533735119699040
+      UI_PixelAdventure_Small_5: 7093847223179567059
+      UI_PixelAdventure_Small_50: 6140912824501809207
+      UI_PixelAdventure_Small_51: -7199916476520777548
+      UI_PixelAdventure_Small_52: 4639436607542508713
+      UI_PixelAdventure_Small_53: -5275820146727871941
+      UI_PixelAdventure_Small_54: -8429653617326519650
+      UI_PixelAdventure_Small_55: -4400984907924157467
+      UI_PixelAdventure_Small_56: -2602735190755153686
+      UI_PixelAdventure_Small_57: 7173043909037867965
+      UI_PixelAdventure_Small_58: 4967441077352436532
+      UI_PixelAdventure_Small_59: 952026076534552000
+      UI_PixelAdventure_Small_6: -7667858127029194066
+      UI_PixelAdventure_Small_60: -26115979356602263
+      UI_PixelAdventure_Small_61: 4573947531576806447
+      UI_PixelAdventure_Small_7: -1582449312753532354
+      UI_PixelAdventure_Small_8: -3997273993699687659
+      UI_PixelAdventure_Small_9: -4852226450362242185
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

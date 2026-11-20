@@ -45,6 +45,11 @@ namespace LostDungeon.Gameplay.Player
         {
             body = GetComponent<Rigidbody2D>();
             capsule = GetComponent<CapsuleCollider2D>();
+            if (config == null)
+            {
+                Debug.LogWarning($"[{nameof(PlayerMotor)}] No PlayerConfig assigned on {name}. Using default values.", this);
+                config = ScriptableObject.CreateInstance<PlayerConfig>();
+            }
             body.gravityScale = config.GravityScale;
             body.freezeRotation = true;
             body.interpolation = RigidbodyInterpolation2D.Interpolate;

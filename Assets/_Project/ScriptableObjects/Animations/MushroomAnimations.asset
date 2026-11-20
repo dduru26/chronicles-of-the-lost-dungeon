@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d0384723be914e95b43532971c17a4d, type: 3}
+  m_Name: MushroomAnimations
+  m_EditorClassIdentifier: LostDungeon.Gameplay::LostDungeon.Gameplay.Animation.SpriteAnimationSet
+  clips:
+  - name: Attack
+    frames:
+    - {fileID: 6695311153152811942, guid: 282c837c30f084a51af1132c33b7df31, type: 3}
+    - {fileID: -3908513330087475267, guid: 282c837c30f084a51af1132c33b7df31, type: 3}
+    - {fileID: 2867228868217470967, guid: 282c837c30f084a51af1132c33b7df31, type: 3}
+    - {fileID: -47442539572887441, guid: 282c837c30f084a51af1132c33b7df31, type: 3}
+    - {fileID: 4401442744430420505, guid: 282c837c30f084a51af1132c33b7df31, type: 3}
+    - {fileID: 8610962892369958692, guid: 282c837c30f084a51af1132c33b7df31, type: 3}
+    - {fileID: -2990756702534433859, guid: 282c837c30f084a51af1132c33b7df31, type: 3}
+    - {fileID: -1007625679435753058, guid: 282c837c30f084a51af1132c33b7df31, type: 3}
+    framesPerSecond: 16
+    loop: 0
+  - name: Attack3
+    frames:
+    - {fileID: 6521863850627996259, guid: 73391d2ca7e5e4da7b0f7db6623e9493, type: 3}
+    - {fileID: 3027839059018237998, guid: 73391d2ca7e5e4da7b0f7db6623e9493, type: 3}
+    - {fileID: 3605174095521980317, guid: 73391d2ca7e5e4da7b0f7db6623e9493, type: 3}
+    - {fileID: -7716162250090868186, guid: 73391d2ca7e5e4da7b0f7db6623e9493, type: 3}
+    - {fileID: -8254582952166628777, guid: 73391d2ca7e5e4da7b0f7db6623e9493, type: 3}
+    - {fileID: 3481138197070550177, guid: 73391d2ca7e5e4da7b0f7db6623e9493, type: 3}
+    - {fileID: -4426379078356851467, guid: 73391d2ca7e5e4da7b0f7db6623e9493, type: 3}
+    - {fileID: -14255696084525089, guid: 73391d2ca7e5e4da7b0f7db6623e9493, type: 3}
+    - {fileID: -4695752169777973402, guid: 73391d2ca7e5e4da7b0f7db6623e9493, type: 3}
+    - {fileID: 2740613266116263599, guid: 73391d2ca7e5e4da7b0f7db6623e9493, type: 3}
+    - {fileID: 1218882760993058022, guid: 73391d2ca7e5e4da7b0f7db6623e9493, type: 3}
+    framesPerSecond: 16
+    loop: 0
+  - name: Death
+    frames:
+    - {fileID: 7232993529854057886, guid: 618bdef6395cb4c9db22bd49d6727b97, type: 3}
+    - {fileID: 8019925308995498210, guid: 618bdef6395cb4c9db22bd49d6727b97, type: 3}
+    - {fileID: 506149642374253762, guid: 618bdef6395cb4c9db22bd49d6727b97, type: 3}
+    - {fileID: 6318636849198572645, guid: 618bdef6395cb4c9db22bd49d6727b97, type: 3}
+    framesPerSecond: 10
+    loop: 0
+  - name: Idle
+    frames:
+    - {fileID: -1113573718472821038, guid: 7c4c2d80b0c08431f9b22cc5efda3387, type: 3}
+    - {fileID: 6341610116142935106, guid: 7c4c2d80b0c08431f9b22cc5efda3387, type: 3}
+    - {fileID: -4178675713155974256, guid: 7c4c2d80b0c08431f9b22cc5efda3387, type: 3}
+    - {fileID: 4889680929781443902, guid: 7c4c2d80b0c08431f9b22cc5efda3387, type: 3}
+    framesPerSecond: 12
+    loop: 1
+  - name: Projectile
+    frames:
+    - {fileID: -8091158956590738853, guid: 4da6f2e597a274fa8a10edd30f232274, type: 3}
+    - {fileID: -4068634374098222544, guid: 4da6f2e597a274fa8a10edd30f232274, type: 3}
+    - {fileID: -7658857283579980764, guid: 4da6f2e597a274fa8a10edd30f232274, type: 3}
+    - {fileID: -8323258740292580132, guid: 4da6f2e597a274fa8a10edd30f232274, type: 3}
+    - {fileID: -1187952587668796647, guid: 4da6f2e597a274fa8a10edd30f232274, type: 3}
+    - {fileID: -2843014975304924518, guid: 4da6f2e597a274fa8a10edd30f232274, type: 3}
+    - {fileID: 1083291491506226687, guid: 4da6f2e597a274fa8a10edd30f232274, type: 3}
+    - {fileID: 8236655161718837655, guid: 4da6f2e597a274fa8a10edd30f232274, type: 3}
+    framesPerSecond: 12
+    loop: 1
+  - name: Run
+    frames:
+    - {fileID: 7273607371254843273, guid: e127bac199c674352b79c8ab3429cb8e, type: 3}
+    - {fileID: -4996764517160515972, guid: e127bac199c674352b79c8ab3429cb8e, type: 3}
+    - {fileID: 8517340431804044109, guid: e127bac199c674352b79c8ab3429cb8e, type: 3}
+    - {fileID: 8257026043209902883, guid: e127bac199c674352b79c8ab3429cb8e, type: 3}
+    - {fileID: 7929087072582954146, guid: e127bac199c674352b79c8ab3429cb8e, type: 3}
+    - {fileID: -6586556404092742625, guid: e127bac199c674352b79c8ab3429cb8e, type: 3}
+    - {fileID: 8172292171611721708, guid: e127bac199c674352b79c8ab3429cb8e, type: 3}
+    - {fileID: 6892846843463954329, guid: e127bac199c674352b79c8ab3429cb8e, type: 3}
+    framesPerSecond: 12
+    loop: 1
+  - name: TakeHit
+    frames:
+    - {fileID: -3263010300300584136, guid: 55d4dfc64b3c4499aba7351a6ffdd1f0, type: 3}
+    - {fileID: -8199659286447809087, guid: 55d4dfc64b3c4499aba7351a6ffdd1f0, type: 3}
+    - {fileID: 1071013444619625454, guid: 55d4dfc64b3c4499aba7351a6ffdd1f0, type: 3}
+    - {fileID: 8984896485359457510, guid: 55d4dfc64b3c4499aba7351a6ffdd1f0, type: 3}
+    framesPerSecond: 12
+    loop: 0

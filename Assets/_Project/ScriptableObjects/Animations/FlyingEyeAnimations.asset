@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d0384723be914e95b43532971c17a4d, type: 3}
+  m_Name: FlyingEyeAnimations
+  m_EditorClassIdentifier: LostDungeon.Gameplay::LostDungeon.Gameplay.Animation.SpriteAnimationSet
+  clips:
+  - name: Attack
+    frames:
+    - {fileID: -8967350202387847116, guid: a29b8d70402da44799a4c87354328726, type: 3}
+    - {fileID: -5811959717703277371, guid: a29b8d70402da44799a4c87354328726, type: 3}
+    - {fileID: -2184626033411338417, guid: a29b8d70402da44799a4c87354328726, type: 3}
+    - {fileID: -3211256486886851324, guid: a29b8d70402da44799a4c87354328726, type: 3}
+    - {fileID: 2706038056799174122, guid: a29b8d70402da44799a4c87354328726, type: 3}
+    - {fileID: 2858908823928225873, guid: a29b8d70402da44799a4c87354328726, type: 3}
+    - {fileID: 8733302242157963834, guid: a29b8d70402da44799a4c87354328726, type: 3}
+    - {fileID: -8045205052928848066, guid: a29b8d70402da44799a4c87354328726, type: 3}
+    framesPerSecond: 16
+    loop: 0
+  - name: Attack3
+    frames:
+    - {fileID: 5706872150329066359, guid: 4d288eb74c69a482c9f9bd845787cdec, type: 3}
+    - {fileID: 1125511091716322861, guid: 4d288eb74c69a482c9f9bd845787cdec, type: 3}
+    - {fileID: -6871703015929518725, guid: 4d288eb74c69a482c9f9bd845787cdec, type: 3}
+    - {fileID: 1508488634534639272, guid: 4d288eb74c69a482c9f9bd845787cdec, type: 3}
+    - {fileID: -6263432639791964712, guid: 4d288eb74c69a482c9f9bd845787cdec, type: 3}
+    - {fileID: 7121101083159320447, guid: 4d288eb74c69a482c9f9bd845787cdec, type: 3}
+    framesPerSecond: 16
+    loop: 0
+  - name: Death
+    frames:
+    - {fileID: 4289207245061413810, guid: de347d3d8125b48499a6dcf29128bdeb, type: 3}
+    - {fileID: -1801464774300581872, guid: de347d3d8125b48499a6dcf29128bdeb, type: 3}
+    - {fileID: -3772825211158935100, guid: de347d3d8125b48499a6dcf29128bdeb, type: 3}
+    - {fileID: 3975846311839629370, guid: de347d3d8125b48499a6dcf29128bdeb, type: 3}
+    framesPerSecond: 10
+    loop: 0
+  - name: Flight
+    frames:
+    - {fileID: -7694980135540353742, guid: 47084fe1abea34b689bc39d96bdcdef1, type: 3}
+    - {fileID: -6412890952833759284, guid: 47084fe1abea34b689bc39d96bdcdef1, type: 3}
+    - {fileID: -8192887475889419395, guid: 47084fe1abea34b689bc39d96bdcdef1, type: 3}
+    - {fileID: -5328948516227974504, guid: 47084fe1abea34b689bc39d96bdcdef1, type: 3}
+    - {fileID: -8011005700979391510, guid: 47084fe1abea34b689bc39d96bdcdef1, type: 3}
+    - {fileID: -355631281138222818, guid: 47084fe1abea34b689bc39d96bdcdef1, type: 3}
+    - {fileID: 1822195692344957818, guid: 47084fe1abea34b689bc39d96bdcdef1, type: 3}
+    - {fileID: 7747385166789356233, guid: 47084fe1abea34b689bc39d96bdcdef1, type: 3}
+    framesPerSecond: 12
+    loop: 1
+  - name: Projectile
+    frames:
+    - {fileID: -4823881059901602466, guid: 3e0c556d19d9d4bd88455de4ff432c9a, type: 3}
+    - {fileID: -6515250191288888808, guid: 3e0c556d19d9d4bd88455de4ff432c9a, type: 3}
+    - {fileID: -1510788484980076675, guid: 3e0c556d19d9d4bd88455de4ff432c9a, type: 3}
+    - {fileID: -4088946383638256792, guid: 3e0c556d19d9d4bd88455de4ff432c9a, type: 3}
+    - {fileID: -3675239935378758359, guid: 3e0c556d19d9d4bd88455de4ff432c9a, type: 3}
+    - {fileID: -8012096125701335091, guid: 3e0c556d19d9d4bd88455de4ff432c9a, type: 3}
+    - {fileID: 1979791377184175884, guid: 3e0c556d19d9d4bd88455de4ff432c9a, type: 3}
+    - {fileID: -223993046117714882, guid: 3e0c556d19d9d4bd88455de4ff432c9a, type: 3}
+    framesPerSecond: 12
+    loop: 1
+  - name: TakeHit
+    frames:
+    - {fileID: 9171533338573812599, guid: a3862973f197d4c57b4769b2ee796bc4, type: 3}
+    - {fileID: -6781009599948849855, guid: a3862973f197d4c57b4769b2ee796bc4, type: 3}
+    - {fileID: 2346066467438968619, guid: a3862973f197d4c57b4769b2ee796bc4, type: 3}
+    - {fileID: -8189316478373341414, guid: a3862973f197d4c57b4769b2ee796bc4, type: 3}
+    framesPerSecond: 12
+    loop: 0

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 767c56487316a488f8ef91acd4b4a81c, type: 3}
+  m_Name: PlayerConfig
+  m_EditorClassIdentifier: LostDungeon.Gameplay::LostDungeon.Gameplay.Player.PlayerConfig
+  moveSpeed: 6
+  acceleration: 70
+  deceleration: 88
+  airControl: 0.7
+  jumpVelocity: 17.8
+  gravityScale: 4.85
+  jumpCutGravityMultiplier: 2.3
+  maxFallSpeed: 22.5
+  coyoteTime: 0.1
+  jumpBufferTime: 0.12
+  platformDropTime: 0.25
+  maxHearts: 5
+  invulnerabilityAfterHit: 0.9
+  hurtKnockback: {x: 9.4, y: 9.4}
+  hurtControlLock: 0.2
+  meleeDamage: 2
+  meleeCooldown: 0.32
+  criticalChance: 0.12
+  meleeBoxSize: {x: 1.6, y: 1.8}
+  meleeBoxOffset: {x: 1.1, y: 1}

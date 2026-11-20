@@ -6,7 +6,10 @@
         "LostDungeon.Gameplay",
         "Unity.Addressables",
         "Unity.Addressables.Editor",
-        "Unity.2D.Sprite.Editor"
+        "Unity.2D.Sprite.Editor",
+        "Unity.Cinemachine",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.Universal.2D.Runtime"
     ],
     "includePlatforms": [
         "Editor"

@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d0384723be914e95b43532971c17a4d, type: 3}
+  m_Name: GoblinAnimations
+  m_EditorClassIdentifier: LostDungeon.Gameplay::LostDungeon.Gameplay.Animation.SpriteAnimationSet
+  clips:
+  - name: Attack
+    frames:
+    - {fileID: -2898184906952680768, guid: e0a73a7b95cea47ab8f0722eb558b231, type: 3}
+    - {fileID: 5857318123520218530, guid: e0a73a7b95cea47ab8f0722eb558b231, type: 3}
+    - {fileID: 3032415730255922661, guid: e0a73a7b95cea47ab8f0722eb558b231, type: 3}
+    - {fileID: 954218691443318849, guid: e0a73a7b95cea47ab8f0722eb558b231, type: 3}
+    - {fileID: 1980235104090888583, guid: e0a73a7b95cea47ab8f0722eb558b231, type: 3}
+    - {fileID: 929257846536385467, guid: e0a73a7b95cea47ab8f0722eb558b231, type: 3}
+    - {fileID: -6931427899860727000, guid: e0a73a7b95cea47ab8f0722eb558b231, type: 3}
+    - {fileID: -5195262503580497893, guid: e0a73a7b95cea47ab8f0722eb558b231, type: 3}
+    framesPerSecond: 16
+    loop: 0
+  - name: Attack3
+    frames:
+    - {fileID: 5957858562982413701, guid: 2139d7e8d2db74db5a39e36d1069e3b7, type: 3}
+    - {fileID: 9027479784926043359, guid: 2139d7e8d2db74db5a39e36d1069e3b7, type: 3}
+    - {fileID: 6100253542925633536, guid: 2139d7e8d2db74db5a39e36d1069e3b7, type: 3}
+    - {fileID: 303347793071446155, guid: 2139d7e8d2db74db5a39e36d1069e3b7, type: 3}
+    - {fileID: 471215294633431333, guid: 2139d7e8d2db74db5a39e36d1069e3b7, type: 3}
+    - {fileID: 5024653325746391545, guid: 2139d7e8d2db74db5a39e36d1069e3b7, type: 3}
+    - {fileID: 6953849544638185610, guid: 2139d7e8d2db74db5a39e36d1069e3b7, type: 3}
+    - {fileID: -8682590841510691026, guid: 2139d7e8d2db74db5a39e36d1069e3b7, type: 3}
+    - {fileID: 4040164933246492629, guid: 2139d7e8d2db74db5a39e36d1069e3b7, type: 3}
+    - {fileID: 7632464361830277897, guid: 2139d7e8d2db74db5a39e36d1069e3b7, type: 3}
+    - {fileID: -612928696722183486, guid: 2139d7e8d2db74db5a39e36d1069e3b7, type: 3}
+    - {fileID: 6785652798888476365, guid: 2139d7e8d2db74db5a39e36d1069e3b7, type: 3}
+    framesPerSecond: 16
+    loop: 0
+  - name: Bomb
+    frames:
+    - {fileID: 958664324013295089, guid: 0053c8e2d9f96411a95ab895566bb36b, type: 3}
+    - {fileID: 3068704215081603749, guid: 0053c8e2d9f96411a95ab895566bb36b, type: 3}
+    - {fileID: 4254493895604715420, guid: 0053c8e2d9f96411a95ab895566bb36b, type: 3}
+    - {fileID: -3443045337505235538, guid: 0053c8e2d9f96411a95ab895566bb36b, type: 3}
+    - {fileID: 6924000305339809797, guid: 0053c8e2d9f96411a95ab895566bb36b, type: 3}
+    - {fileID: 7577083729191851315, guid: 0053c8e2d9f96411a95ab895566bb36b, type: 3}
+    - {fileID: 5760545678141496222, guid: 0053c8e2d9f96411a95ab895566bb36b, type: 3}
+    - {fileID: 1402313423139669916, guid: 0053c8e2d9f96411a95ab895566bb36b, type: 3}
+    - {fileID: 3798936265285085090, guid: 0053c8e2d9f96411a95ab895566bb36b, type: 3}
+    - {fileID: -1785081513759048267, guid: 0053c8e2d9f96411a95ab895566bb36b, type: 3}
+    - {fileID: -8568063005380980767, guid: 0053c8e2d9f96411a95ab895566bb36b, type: 3}
+    - {fileID: 4100707347541121498, guid: 0053c8e2d9f96411a95ab895566bb36b, type: 3}
+    - {fileID: 3852777957493507272, guid: 0053c8e2d9f96411a95ab895566bb36b, type: 3}
+    - {fileID: -8637226578266699817, guid: 0053c8e2d9f96411a95ab895566bb36b, type: 3}
+    - {fileID: 15993298481137760, guid: 0053c8e2d9f96411a95ab895566bb36b, type: 3}
+    - {fileID: -682708883311191822, guid: 0053c8e2d9f96411a95ab895566bb36b, type: 3}
+    - {fileID: -4063094366060378268, guid: 0053c8e2d9f96411a95ab895566bb36b, type: 3}
+    - {fileID: 4501770803717495040, guid: 0053c8e2d9f96411a95ab895566bb36b, type: 3}
+    - {fileID: 263701832420783682, guid: 0053c8e2d9f96411a95ab895566bb36b, type: 3}
+    framesPerSecond: 12
+    loop: 1
+  - name: Death
+    frames:
+    - {fileID: -3124397096073141363, guid: 45da177eeff344f638cecd4d6d076e2a, type: 3}
+    - {fileID: -749724090643427790, guid: 45da177eeff344f638cecd4d6d076e2a, type: 3}
+    - {fileID: 9016763863700688465, guid: 45da177eeff344f638cecd4d6d076e2a, type: 3}
+    - {fileID: 3317473751703856157, guid: 45da177eeff344f638cecd4d6d076e2a, type: 3}
+    framesPerSecond: 10
+    loop: 0
+  - name: Idle
+    frames:
+    - {fileID: 9130647759989690307, guid: 312cdc769340a4b13bb35fbb6cf53ec4, type: 3}
+    - {fileID: 1368956883174936208, guid: 312cdc769340a4b13bb35fbb6cf53ec4, type: 3}
+    - {fileID: 6361711507835937641, guid: 312cdc769340a4b13bb35fbb6cf53ec4, type: 3}
+    - {fileID: 6260978701604189543, guid: 312cdc769340a4b13bb35fbb6cf53ec4, type: 3}
+    framesPerSecond: 12
+    loop: 1
+  - name: Run
+    frames:
+    - {fileID: -7067100048058867364, guid: 2e1ce4e9ec9ca483696b6dc3e3e7cb77, type: 3}
+    - {fileID: -8781465562186494570, guid: 2e1ce4e9ec9ca483696b6dc3e3e7cb77, type: 3}
+    - {fileID: -1169463751102481240, guid: 2e1ce4e9ec9ca483696b6dc3e3e7cb77, type: 3}
+    - {fileID: 2242382494881117327, guid: 2e1ce4e9ec9ca483696b6dc3e3e7cb77, type: 3}
+    - {fileID: 1931021825172604147, guid: 2e1ce4e9ec9ca483696b6dc3e3e7cb77, type: 3}
+    - {fileID: -9143194657959688793, guid: 2e1ce4e9ec9ca483696b6dc3e3e7cb77, type: 3}
+    - {fileID: -2551321506700363719, guid: 2e1ce4e9ec9ca483696b6dc3e3e7cb77, type: 3}
+    - {fileID: 3218051686681118821, guid: 2e1ce4e9ec9ca483696b6dc3e3e7cb77, type: 3}
+    framesPerSecond: 12
+    loop: 1
+  - name: TakeHit
+    frames:
+    - {fileID: -7275658823661132849, guid: 9c6c8261911f54c23b3538e663a80388, type: 3}
+    - {fileID: -9006937548550932882, guid: 9c6c8261911f54c23b3538e663a80388, type: 3}
+    - {fileID: 8194305851571731775, guid: 9c6c8261911f54c23b3538e663a80388, type: 3}
+    - {fileID: 6043021116784969087, guid: 9c6c8261911f54c23b3538e663a80388, type: 3}
+    framesPerSecond: 12
+    loop: 0
