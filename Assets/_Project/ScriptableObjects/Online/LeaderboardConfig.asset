@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e4fd0598c8e480fa2ca51d0935f2ad, type: 3}
+  m_Name: LeaderboardConfig
+  m_EditorClassIdentifier: LostDungeon.Gameplay::LostDungeon.Gameplay.Online.LeaderboardConfig
+  projectUrl: https://ilcegbpzysjxeaxwbbft.supabase.co
+  publishableKey: sb_publishable_Sw1-e1LeVK1HST3aIWMHxg_pvc-bphr
+  table: scores
+  topCount: 10
+  timeoutSeconds: 8

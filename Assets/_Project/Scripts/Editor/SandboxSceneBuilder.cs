@@ -3,6 +3,7 @@ using LostDungeon.Gameplay.Animation;
 using LostDungeon.Gameplay.Combat;
 using LostDungeon.Gameplay.Interaction;
 using LostDungeon.Gameplay.Items;
+using LostDungeon.Gameplay.Online;
 using LostDungeon.Gameplay.Player;
 using Unity.Cinemachine;
 using UnityEditor;
@@ -92,6 +93,8 @@ namespace LostDungeon.EditorTools
             PlacePickup("Coin", new Vector3(13f, 5.4f, 0f));
             PlacePickup("Potion", new Vector3(22f, 5.4f, 0f));
             PlacePickup("Key", new Vector3(28f, 8.4f, 0f));
+
+            CreateLeaderboardProbe();
             CreateCameras(player.transform);
 
             EditorSceneManager.SaveScene(scene, ScenePath);
@@ -490,6 +493,23 @@ namespace LostDungeon.EditorTools
         {
             var instance = (GameObject)PrefabUtility.InstantiatePrefab(ItemAssetBuilder.PickupPrefab(prefabName));
             instance.transform.position = position;
+        }
+
+        static void CreateLeaderboardProbe()
+        {
+            const string configPath = "Assets/_Project/ScriptableObjects/Online/LeaderboardConfig.asset";
+            EnsureFolder("Assets/_Project/ScriptableObjects/Online");
+            var config = AssetDatabase.LoadAssetAtPath<LeaderboardConfig>(configPath);
+            if (config == null)
+            {
+                config = ScriptableObject.CreateInstance<LeaderboardConfig>();
+                AssetDatabase.CreateAsset(config, configPath);
+            }
+
+            var probe = new GameObject("Leaderboard Probe").AddComponent<LeaderboardProbe>();
+            var data = new SerializedObject(probe);
+            data.FindProperty("config").objectReferenceValue = config;
+            data.ApplyModifiedPropertiesWithoutUndo();
         }
 
         static void EnsureFolder(string path)
