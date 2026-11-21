@@ -22,6 +22,7 @@ namespace LostDungeon.Core.Events
         public static event Action PlayerDied;
         public static event Action<int> BossPhaseChanged;
         public static event Action<string> Interacted;
+        public static event Action<string, string> DialogueRequested;
 
         public static void RaiseHealthChanged(int current, int max) => HealthChanged?.Invoke(current, max);
         public static void RaiseGameStateChanged(GameState previous, GameState current) => GameStateChanged?.Invoke(previous, current);
@@ -36,6 +37,7 @@ namespace LostDungeon.Core.Events
         public static void RaisePlayerDied() => PlayerDied?.Invoke();
         public static void RaiseBossPhaseChanged(int phase) => BossPhaseChanged?.Invoke(phase);
         public static void RaiseInteracted(string interactableId) => Interacted?.Invoke(interactableId);
+        public static void RaiseDialogueRequested(string speaker, string line) => DialogueRequested?.Invoke(speaker, line);
 
         public static void ClearAll()
         {
@@ -52,6 +54,7 @@ namespace LostDungeon.Core.Events
             PlayerDied = null;
             BossPhaseChanged = null;
             Interacted = null;
+            DialogueRequested = null;
         }
     }
 }
