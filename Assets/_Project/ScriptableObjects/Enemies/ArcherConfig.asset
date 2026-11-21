@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81fd34b16e2754a9cb1255e1074b738d, type: 3}
+  m_Name: ArcherConfig
+  m_EditorClassIdentifier: LostDungeon.Gameplay::LostDungeon.Gameplay.Enemies.EnemyConfig
+  id: archer
+  displayName: Flying Eye
+  maxHealth: 3
+  damage: 1
+  goldDrop: 2
+  isFlying: 1
+  gravityScale: 4.85
+  patrolSpeed: 1.5
+  chaseSpeed: 2.6
+  patrolRadius: 3
+  sightRange: 11
+  verticalSightRange: 7
+  attackRange: 1.6
+  attackHeight: 2
+  attackWindup: 0.45
+  attackRecover: 0.45
+  lungeSpeed: 0
+  projectile: {fileID: 3346352698925312124, guid: d6ece9b6a87e1492bbd5c66acde4d92b, type: 3}
+  projectileSpeed: 9
+  fireInterval: 1.6
+  keepDistance: 5
+  projectileSpawnOffset: {x: 0.6, y: 0}
+  staggerable: 1
+  knockback: {x: 4, y: 0}
+  hurtDuration: 0.25
+  stunDuration: 1.4
+  idleClip: Flight
+  moveClip: Flight
+  attackClip: Attack
+  hurtClip: TakeHit
+  deathClip: Death
+  blockClip: 

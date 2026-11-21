@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c038b3f3f36c54b2bb6c66bc2a30cca4, type: 3}
+  m_Name: PickupCatalog
+  m_EditorClassIdentifier: LostDungeon.Gameplay::LostDungeon.Gameplay.Items.PickupCatalog
+  entries:
+  - itemId: gold
+    prefab: {fileID: 5423266587375591462, guid: ffcb57f84b92944c39254fd7b7238d05, type: 3}
+  - itemId: potion
+    prefab: {fileID: 6294760668829908739, guid: 1688ec7f9e8a44b6cbe12bea10e08d22, type: 3}
+  - itemId: key
+    prefab: {fileID: 7782072726095382254, guid: 68c60ff2c50414612932fa429eedacf4, type: 3}
+  - itemId: gem
+    prefab: {fileID: 3593645657014076628, guid: 1272e031c5db748049b291185b32c722, type: 3}
+  maxCoinsPerDrop: 12
+  launchSpeed: {x: 3.5, y: 9}

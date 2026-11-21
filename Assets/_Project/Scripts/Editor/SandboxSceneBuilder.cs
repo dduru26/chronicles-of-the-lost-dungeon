@@ -1,6 +1,8 @@
 using LostDungeon.Gameplay.Abilities;
 using LostDungeon.Gameplay.Animation;
 using LostDungeon.Gameplay.Combat;
+using LostDungeon.Gameplay.Interaction;
+using LostDungeon.Gameplay.Items;
 using LostDungeon.Gameplay.Player;
 using Unity.Cinemachine;
 using UnityEditor;
@@ -74,7 +76,22 @@ namespace LostDungeon.EditorTools
             CreateLighting();
             Vector3 spawn = CreateTilemaps();
             GameObject player = CreatePlayer(config, spawn, dash, fireball);
-            CreateTrainingDummy(spawn + new Vector3(12f, 0f, 0f));
+            CreateTrainingDummy(spawn + new Vector3(5.5f, 0f, 0f));
+
+            EnemyPrefabBuilder.BuildAll();
+            PlaceEnemy(EnemyPrefabBuilder.WarriorPrefabPath, new Vector3(18f, 2f, 0f));
+            PlaceEnemy(EnemyPrefabBuilder.ArcherPrefabPath, new Vector3(24f, 7.5f, 0f));
+            PlaceEnemy(EnemyPrefabBuilder.GuardianPrefabPath, new Vector3(37f, 2f, 0f));
+
+            CreateStatue(new Vector3(5f, 2f, 0f));
+            CreateChest(new Vector3(11f, 2f, 0f));
+            Door door = CreateDoor(new Vector3(41f, 2f, 0f));
+            CreateLever(new Vector3(13.5f, 2f, 0f), door);
+            PlacePickup("Coin", new Vector3(11f, 5.4f, 0f));
+            PlacePickup("Coin", new Vector3(12f, 5.4f, 0f));
+            PlacePickup("Coin", new Vector3(13f, 5.4f, 0f));
+            PlacePickup("Potion", new Vector3(22f, 5.4f, 0f));
+            PlacePickup("Key", new Vector3(28f, 8.4f, 0f));
             CreateCameras(player.transform);
 
             EditorSceneManager.SaveScene(scene, ScenePath);
@@ -216,6 +233,19 @@ namespace LostDungeon.EditorTools
             AddSlot(slots, PlayerButton.Dash, dash);
             AddSlot(slots, PlayerButton.Fire, fireball);
             abilityData.ApplyModifiedPropertiesWithoutUndo();
+
+            player.AddComponent<PlayerInventory>();
+            var interactor = player.AddComponent<PlayerInteractor>();
+            var prompt = new GameObject("Interact Prompt");
+            prompt.transform.SetParent(player.transform, false);
+            var promptRenderer = prompt.AddComponent<SpriteRenderer>();
+            promptRenderer.sprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/_Project/Art/Sprites/Items/UI_prompt_e.png");
+            promptRenderer.sortingLayerName = "FX";
+            prompt.SetActive(false);
+            var interactorData = new SerializedObject(interactor);
+            interactorData.FindProperty("interactableMask").intValue = 1 << LayerMask.NameToLayer("Interactable");
+            interactorData.FindProperty("promptMarker").objectReferenceValue = prompt.transform;
+            interactorData.ApplyModifiedPropertiesWithoutUndo();
 
             var motorData = new SerializedObject(motor);
             motorData.FindProperty("config").objectReferenceValue = config;
@@ -359,6 +389,107 @@ namespace LostDungeon.EditorTools
             animatorData.ApplyModifiedPropertiesWithoutUndo();
 
             dummy.AddComponent<TrainingDummy>();
+        }
+
+        static void PlaceEnemy(string prefabPath, Vector3 position)
+        {
+            var prefab = AssetDatabase.LoadAssetAtPath<GameObject>(prefabPath);
+            var instance = (GameObject)PrefabUtility.InstantiatePrefab(prefab);
+            instance.transform.position = position;
+        }
+
+        static GameObject CreateInteractableRoot(string name, Vector3 position, Vector2 triggerSize)
+        {
+            var root = new GameObject(name);
+            root.layer = LayerMask.NameToLayer("Interactable");
+            root.transform.position = position;
+            var trigger = root.AddComponent<BoxCollider2D>();
+            trigger.isTrigger = true;
+            trigger.size = triggerSize;
+            trigger.offset = new Vector2(0f, triggerSize.y * 0.5f);
+            return root;
+        }
+
+        static SpriteRenderer AddSprite(Transform parent, string spritePath, Vector3 localPosition, string sortingLayer = "Props")
+        {
+            var visual = new GameObject("Visual");
+            visual.transform.SetParent(parent, false);
+            visual.transform.localPosition = localPosition;
+            var renderer = visual.AddComponent<SpriteRenderer>();
+            renderer.sprite = AssetDatabase.LoadAssetAtPath<Sprite>(spritePath);
+            renderer.sortingLayerName = sortingLayer;
+            return renderer;
+        }
+
+        static void CreateStatue(Vector3 position)
+        {
+            GameObject root = CreateInteractableRoot("Ancient Statue", position, new Vector2(1.5f, 2f));
+            SpriteRenderer renderer = AddSprite(root.transform, "Assets/_Project/Art/Sprites/Props/Prop_marker_statue1.png", Vector3.zero);
+            if (renderer.sprite != null) renderer.transform.localPosition = new Vector3(0f, renderer.sprite.bounds.extents.y, 0f);
+            var npc = root.AddComponent<Npc>();
+            var data = new SerializedObject(npc);
+            data.FindProperty("promptText").stringValue = "Talk";
+            SerializedProperty lines = data.FindProperty("lines");
+            string[] dialogue =
+            {
+                "Few return from the Lost Dungeon, knight.",
+                "The Guardian's shield turns any blade. Strike its back, or burn it.",
+                "A lever opens the sealed gate to the east."
+            };
+            lines.arraySize = dialogue.Length;
+            for (int i = 0; i < dialogue.Length; i++) lines.GetArrayElementAtIndex(i).stringValue = dialogue[i];
+            data.ApplyModifiedPropertiesWithoutUndo();
+        }
+
+        static void CreateChest(Vector3 position)
+        {
+            GameObject root = CreateInteractableRoot("Chest", position, new Vector2(1.5f, 1.5f));
+            SpriteRenderer renderer = AddSprite(root.transform, "Assets/_Project/Art/Sprites/Props/Prop_chest.png", new Vector3(0f, 0.5f, 0f));
+            var chest = root.AddComponent<Chest>();
+            var data = new SerializedObject(chest);
+            data.FindProperty("promptText").stringValue = "Open";
+            data.FindProperty("lootTable").objectReferenceValue = ItemAssetBuilder.ChestLoot;
+            data.FindProperty("catalog").objectReferenceValue = ItemAssetBuilder.Catalog;
+            data.FindProperty("spriteRenderer").objectReferenceValue = renderer;
+            data.ApplyModifiedPropertiesWithoutUndo();
+        }
+
+        static Door CreateDoor(Vector3 position)
+        {
+            var root = new GameObject("Gate");
+            root.layer = LayerMask.NameToLayer("Ground");
+            root.transform.position = position;
+            var blocker = root.AddComponent<BoxCollider2D>();
+            blocker.size = new Vector2(1f, 2f);
+            blocker.offset = new Vector2(0f, 1f);
+            SpriteRenderer renderer = AddSprite(root.transform, "Assets/_Project/Art/Sprites/Props/Prop_door.png", new Vector3(0f, 1f, 0f), "World");
+            var door = root.AddComponent<Door>();
+            var data = new SerializedObject(door);
+            data.FindProperty("visual").objectReferenceValue = renderer.transform;
+            data.ApplyModifiedPropertiesWithoutUndo();
+            return door;
+        }
+
+        static void CreateLever(Vector3 position, Door target)
+        {
+            GameObject root = CreateInteractableRoot("Lever", position, new Vector2(1.2f, 1.5f));
+            SpriteRenderer renderer = AddSprite(root.transform, "Assets/_Project/Art/Sprites/Items/Prop_lever_off.png", new Vector3(0f, 0.32f, 0f));
+            var lever = root.AddComponent<Lever>();
+            var data = new SerializedObject(lever);
+            data.FindProperty("promptText").stringValue = "Pull";
+            data.FindProperty("spriteRenderer").objectReferenceValue = renderer;
+            data.FindProperty("offSprite").objectReferenceValue = renderer.sprite;
+            data.FindProperty("onSprite").objectReferenceValue = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/_Project/Art/Sprites/Items/Prop_lever_on.png");
+            SerializedProperty targets = data.FindProperty("targets");
+            targets.arraySize = 1;
+            targets.GetArrayElementAtIndex(0).objectReferenceValue = target;
+            data.ApplyModifiedPropertiesWithoutUndo();
+        }
+
+        static void PlacePickup(string prefabName, Vector3 position)
+        {
+            var instance = (GameObject)PrefabUtility.InstantiatePrefab(ItemAssetBuilder.PickupPrefab(prefabName));
+            instance.transform.position = position;
         }
 
         static void EnsureFolder(string path)

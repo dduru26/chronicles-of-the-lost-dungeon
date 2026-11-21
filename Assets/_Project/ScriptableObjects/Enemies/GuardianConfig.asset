@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81fd34b16e2754a9cb1255e1074b738d, type: 3}
+  m_Name: GuardianConfig
+  m_EditorClassIdentifier: LostDungeon.Gameplay::LostDungeon.Gameplay.Enemies.EnemyConfig
+  id: guardian
+  displayName: Skeleton Guardian
+  maxHealth: 9
+  damage: 2
+  goldDrop: 4
+  isFlying: 0
+  gravityScale: 4.85
+  patrolSpeed: 1.2
+  chaseSpeed: 1.75
+  patrolRadius: 3
+  sightRange: 7.5
+  verticalSightRange: 2.5
+  attackRange: 1.8
+  attackHeight: 2.6
+  attackWindup: 0.5
+  attackRecover: 0.6
+  lungeSpeed: 7.5
+  projectile: {fileID: 0}
+  projectileSpeed: 10
+  fireInterval: 1.5
+  keepDistance: 4.4
+  projectileSpawnOffset: {x: 0.6, y: 0}
+  staggerable: 1
+  knockback: {x: 2, y: 0}
+  hurtDuration: 0.25
+  stunDuration: 1.4
+  idleClip: Idle
+  moveClip: Walk
+  attackClip: Attack
+  hurtClip: TakeHit
+  deathClip: Death
+  blockClip: Shield
