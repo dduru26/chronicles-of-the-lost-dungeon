@@ -11,6 +11,7 @@ namespace LostDungeon.Gameplay.Combat
     {
         [SerializeField] SpriteRenderer visual;
         [SerializeField] LayerMask blockingMask;
+        [SerializeField] bool alignToVelocity;
 
         Rigidbody2D body;
         PooledObject pooled;
@@ -41,7 +42,9 @@ namespace LostDungeon.Gameplay.Combat
             owner = source;
             alive = true;
             body.linearVelocity = velocity;
-            if (visual != null) visual.flipX = velocity.x < 0f;
+            if (visual == null) return;
+            if (alignToVelocity) visual.transform.right = velocity.normalized;
+            else visual.flipX = velocity.x < 0f;
         }
 
         void Update()

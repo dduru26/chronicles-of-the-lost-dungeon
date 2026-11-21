@@ -17,6 +17,8 @@ namespace LostDungeon.Gameplay.Player
         PlayerInputReader input;
         Health health;
 
+        public static PlayerController Active { get; private set; }
+
         public event Action Died;
         public event Action Respawned;
 
@@ -42,6 +44,7 @@ namespace LostDungeon.Gameplay.Player
 
         void OnEnable()
         {
+            Active = this;
             health.Changed += HandleHealthChanged;
             health.Damaged += HandleDamaged;
             health.Died += HandleDied;
@@ -49,6 +52,7 @@ namespace LostDungeon.Gameplay.Player
 
         void OnDisable()
         {
+            if (Active == this) Active = null;
             health.Changed -= HandleHealthChanged;
             health.Damaged -= HandleDamaged;
             health.Died -= HandleDied;
